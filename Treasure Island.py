@@ -40,6 +40,8 @@ if direction == "left":
       print("You were eaten by beasts.\nGame Over.")
     elif door == "yellow":
       print("Hooray...\n You won")
+    else:
+      print("haha, very smart, but.............\n you still failed")
   elif (action == "swim") or (action != "swim"):
     print("You were attacked by trout.\nGame Over.")
 elif (direction == "right") or (direction != "right"):
